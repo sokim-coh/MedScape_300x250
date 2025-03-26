@@ -332,22 +332,25 @@ if (reversed == null) { reversed = false; }
 	this.instance_6 = new lib.chance();
 	this.instance_6.setTransform(150,205.85,1,1,0,0,0,126.8,27.5);
 	this.instance_6.alpha = 0;
+	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({alpha:1},43).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({alpha:1},38).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
 
 	// zero_perc
 	this.instance_7 = new lib._0perc();
 	this.instance_7.setTransform(150,154.15,1,1,0,0,0,127,50.4);
 	this.instance_7.alpha = 0;
+	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({alpha:1},43).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({alpha:1},38).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
 
 	// patients
 	this.instance_8 = new lib.patient();
 	this.instance_8.setTransform(150,98.65,1,1,0,0,0,126.8,27.5);
 	this.instance_8.alpha = 0;
+	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({alpha:1},43).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(5).to({_off:false},0).to({alpha:1},38).wait(36).to({alpha:0},23).to({_off:true},2).wait(231));
 
 	// bg
 	this.instance_9 = new lib.CachedBmp_13();
